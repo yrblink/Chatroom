@@ -1,0 +1,19 @@
+# Compiled binaries
+*.exe
+*.obj
+*.pdb
+*.ilk
+
+# Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+*.user
+
+# VS Code
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db

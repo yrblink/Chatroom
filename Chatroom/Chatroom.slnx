@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Chatroom/Chatroom.vcxproj" Id="ea9dc8a5-e597-4986-ba43-70502360478d" />
+</Solution>
