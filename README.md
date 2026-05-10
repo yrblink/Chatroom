@@ -1,50 +1,32 @@
-\# CS402 ChatRoom
+# Ifeanyi Ugwuoke
+# CS402 ChatRoom
 
+-HOW TO USE-
+-Save folder to your PC
+-Open three terminals tabs (one to host the server and the other 2 join as clients)
+-cd to the project folder on all tabs
+-paste "& "-  .\Chatroom\chatroom.exe"  -" on all tabs
+-enjoy!
 
 
 A multi-threaded TCP chat application built in C++ using Winsock.
 
 
 
-\## Features
+# Features
 
-\- Multi-client chat over TCP sockets
+- Multi-client chat over TCP sockets
 
-\- Broadcast messages to all connected users
+- Broadcast messages to all connected users
 
-\- Private DMs with `/dm <user> <message>`
+- Private DMs with `/dm <user> <message>`
 
-\- User listing with `/list`
+- User listing with `/list`
 
-\- Clean disconnect with `/quit`
-
-
-
-\## Build (Windows, MSVC)
+- Clean disconnect with `/quit`
 
 
 
-&#x20;   cl /EHsc /std:c++17 main.cpp Server.cpp Client.cpp /Fe:chatroom.exe
+# Build (Windows)
 
-
-
-\## Run
-
-
-
-Open three terminals. In each:
-
-
-
-&#x20;   .\\chatroom.exe
-
-
-
-In one, choose option 1 (server). In the others, option 2 (client).
-
-
-
-
-
-Ifeanyi Ugwuoke
 
