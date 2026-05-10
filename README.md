@@ -5,7 +5,7 @@
 -Save folder to your PC
 -Open three terminals tabs (one to host the server and the other 2 join as clients)
 -cd to the project folder on all tabs
--paste "& "-  .\Chatroom\chatroom.exe"  -" on all tabs
+-paste ( & ".\Chatroom\chatroom.exe" ) on all tabs
 -enjoy!
 
 
@@ -23,7 +23,7 @@ A multi-threaded TCP chat application built in C++ using Winsock.
 
 - User listing with `/list`
 
-- Clean disconnect with `/quit`
+- disconnect with `/quit`
 
 
 
