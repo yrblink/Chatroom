@@ -31,7 +31,7 @@ From a Developer Command Prompt:
     cl /EHsc /std:c++17 main.cpp Server.cpp Client.cpp /Fe:chatroom.exe
 
 ## Architecture
-- **TCP** chosen for guaranteed delivery and ordered messages — critical for chat
+- **TCP** chosen for guaranteed delivery and ordered messages, critical for chat
 - One thread per connected client on the server
 - Mutex-protected client registry for safe concurrent access
 - Atomic flag for clean shutdown of the receive thread on the client
